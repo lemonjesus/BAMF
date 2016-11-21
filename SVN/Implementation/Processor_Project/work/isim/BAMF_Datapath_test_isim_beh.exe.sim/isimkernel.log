@@ -1,0 +1,28 @@
+Command line:
+   BAMF_Datapath_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63179
+
+Wed Nov 16 23:03:11 2016
+
+
+ Elaboration Time: 0.234375 sec
+
+ Current Memory Usage: 1360.35 Meg
+
+ Total Signals          : 442
+ Total Nets             : 19206
+ Total Signal Drivers   : 275
+ Total Blocks           : 47
+ Total Primitive Blocks : 38
+ Total Processes        : 283
+ Total Traceable Variables  : 307
+ Total Scalar Nets and Variables : 21321
+
+ Total Simulation Time: 0.28125 sec
+
+ Current Memory Usage: 1360.35 Meg
+
+Wed Nov 16 23:03:25 2016
+

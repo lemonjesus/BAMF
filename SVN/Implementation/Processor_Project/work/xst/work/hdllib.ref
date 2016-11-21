@@ -1,0 +1,21 @@
+MO Control NULL ../Control.v vlg41/_control.bin 1479355476
+MO one_bit_shifter NULL ../one_bit_shifter.v vlg64/one__bit__shifter.bin 1479067672
+MO PC_Register NULL ../PC_Register.v vlg47/_p_c___register.bin 1479355476
+EN bamf_datapath NULL "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.vhf" sub00/vhpl02 1479355478
+MO Register_File NULL ../Register_File.v vlg3C/_register___file.bin 1479355476
+MO clock_delay NULL ../clock_delay.v vlg2A/clock__delay.bin 1479355476
+MO bmux_10 NULL ../bmux_10.v vlg2C/bmux__10.bin 1479355476
+MO addby2 NULL ../addby2.v vlg2E/addby2.bin 1479355476
+MO bmux_16 NULL ../bmux_16.v vlg32/bmux__16.bin 1479355476
+MO sign_extender_8in_16out NULL ../sign_extender_8in_16out.v vlg3F/sign__extender__8in__16out.bin 1479355476
+MO sign_extender_12in_16out NULL ../sign_extender_12in_16out.v vlg26/sign__extender__12in__16out.bin 1479355476
+MO zero_extender_12in_16out NULL ../zero_extender_12in_16out.v vlg35/zero__extender__12in__16out.bin 1479355476
+MO add_2_10bit NULL ../add_2_10bit.v vlg75/add__2__10bit.bin 1479355476
+EN memory NULL "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/ipcore_dir/Memory.vhd" sub00/vhpl00 1479355476
+AR memory memory_a "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/ipcore_dir/Memory.vhd" sub00/vhpl01 1479355477
+AR bamf_datapath behavioral "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.vhf" sub00/vhpl03 1479355479
+MO bmux_2 NULL ../bmux_2.v vlg4D/bmux__2.bin 1479355476
+MO bmux_4 NULL ../bmux_4.v vlg4F/bmux__4.bin 1479355476
+MO ALU NULL ../ALU.v vlg2A/_a_l_u.bin 1479355476
+MO bmux_8 NULL ../bmux_8.v vlg53/bmux__8.bin 1479355476
+MO zero_extender_8in_16out NULL ../zero_extender_8in_16out.v vlg42/zero__extender__8in__16out.bin 1479355476

@@ -1,0 +1,20 @@
+V3 27
+FL "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/ipcore_dir/Memory.vhd" 2016/11/09.16:33:35 P.20131013
+EN work/Memory 1479355476 \
+      FL "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/ipcore_dir/Memory.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Memory/Memory_a 1479355477 \
+      FL "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/ipcore_dir/Memory.vhd" \
+      EN work/Memory 1479355476
+FL "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.vhf" 2016/11/16.22:54:33 P.20131013
+EN work/BAMF_Datapath 1479355478 \
+      FL "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/BAMF_Datapath/BEHAVIORAL 1479355479 \
+      FL "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.vhf" \
+      EN work/BAMF_Datapath 1479355478 CP Register_File CP bmux_16 CP bmux_8 \
+      CP Memory CP PC_Register CP addby2 CP bmux_2 CP AND2 CP GND CP ALU \
+      CP zero_extender_12in_16out CP sign_extender_12in_16out \
+      CP zero_extender_8in_16out CP sign_extender_8in_16out CP bmux_4 CP Control \
+      CP clock_delay CP add_2_10bit CP bmux_10

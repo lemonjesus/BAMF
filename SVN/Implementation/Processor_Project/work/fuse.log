@@ -1,0 +1,69 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath_relprime_isim_beh.exe -prj C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath_relprime_beh.prj work.BAMF_Datapath_relprime work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../zero_extender_8in_16out.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../zero_extender_12in_16out.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../sign_extender_8in_16out.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../sign_extender_12in_16out.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../Register_File.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../PC_Register.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../Control.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../clock_delay.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../bmux_8.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../bmux_4.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../bmux_2.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../bmux_16.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../bmux_10.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../ALU.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../add_2_10bit.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../addby2.v" into library work
+Analyzing Verilog file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../BAMF_Datapath_relprime.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/../ipcore_dir/Memory.vhd" into library work
+Parsing VHDL file "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Register_File
+Compiling module bmux_16
+Compiling module bmux_8
+Compiling module PC_Register
+Compiling module addby2
+Compiling module bmux_2
+Compiling module ALU
+Compiling module zero_extender_12in_16out
+Compiling module sign_extender_12in_16out
+Compiling module zero_extender_8in_16out
+Compiling module sign_extender_8in_16out
+Compiling module bmux_4
+Compiling module Control
+Compiling module clock_delay
+Compiling module add_2_10bit
+Compiling module bmux_10
+Compiling module BAMF_Datapath_relprime
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package vl_types
+Compiling package textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V6_3_output_stage [\BLK_MEM_GEN_V6_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V6_3_softecc_output_reg_stage [\BLK_MEM_GEN_V6_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V6_3_mem_module [\BLK_MEM_GEN_V6_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V6_3 [\BLK_MEM_GEN_V6_3("blk_mem_gen_v...]
+Compiling architecture memory_a of entity Memory [memory_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture behavioral of entity BAMF_Datapath [bamf_datapath_default]
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 25 VHDL Units
+Compiled 18 Verilog Units
+Built simulation executable C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath_relprime_isim_beh.exe
+Fuse Memory Usage: 103148 KB
+Fuse CPU Usage: 2671 ms

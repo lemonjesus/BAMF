@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.xst" -ofn "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -i -p xc3s100e-vq100-5 "BAMF_Datapath.ngc" BAMF_Datapath.ngd  
+xst -intstyle ise -ifn "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.xst" -ofn "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -i -p xc3s100e-vq100-5 "BAMF_Datapath.ngc" BAMF_Datapath.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o BAMF_Datapath_map.ncd BAMF_Datapath.ngd BAMF_Datapath.pcf 
+xst -intstyle ise -ifn "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.xst" -ofn "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 "BAMF_Datapath.ngc" BAMF_Datapath.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o BAMF_Datapath_map.ncd BAMF_Datapath.ngd BAMF_Datapath.pcf 
+par -w -intstyle ise -ol high -t 1 BAMF_Datapath_map.ncd BAMF_Datapath.ncd BAMF_Datapath.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BAMF_Datapath.twx BAMF_Datapath.ncd -o BAMF_Datapath.twr BAMF_Datapath.pcf 
+xst -intstyle ise -ifn "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.xst" -ofn "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 "BAMF_Datapath.ngc" BAMF_Datapath.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o BAMF_Datapath_map.ncd BAMF_Datapath.ngd BAMF_Datapath.pcf 
+par -w -intstyle ise -ol high -t 1 BAMF_Datapath_map.ncd BAMF_Datapath.ncd BAMF_Datapath.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BAMF_Datapath.twx BAMF_Datapath.ncd -o BAMF_Datapath.twr BAMF_Datapath.pcf 
+xst -intstyle ise -ifn "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.xst" -ofn "C:/Users/osmantf/Google Drive/2016 School/Comp Arch/Comp Arch Project/SVN/Implementation/Processor_Project/work/BAMF_Datapath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 "BAMF_Datapath.ngc" BAMF_Datapath.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o BAMF_Datapath_map.ncd BAMF_Datapath.ngd BAMF_Datapath.pcf 
+par -w -intstyle ise -ol high -t 1 BAMF_Datapath_map.ncd BAMF_Datapath.ncd BAMF_Datapath.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml BAMF_Datapath.twx BAMF_Datapath.ncd -o BAMF_Datapath.twr BAMF_Datapath.pcf 
